@@ -15,8 +15,3 @@ class Produto:
 
     def todas_infos(self):
         return f'Nome:{self.nome}\nPreço:{self.preco}\nQuantidade: {self.quantidade}'
-    
-produto1 = Produto('gustavo', 20.5, 10)
-
-print(produto1.todas_infos())
-
